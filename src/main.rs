@@ -134,7 +134,7 @@ fn main() {
     println!("--------------------------------------------------");
     println!("List of tasks for the day:");
     display_tasks(&tasklist);
-    while true {
+    loop {
         utrim_command.clear();
         println!("Enter a command to manage your todo list: (show/add/remove/update/rename/close)");
         stdin()

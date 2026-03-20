@@ -5,9 +5,9 @@
     "status": "CheckAgain"
   },
   {
-    "id": 2,
-    "title": "Homework",
-    "status": "Pending"
+    "id": 6,
+    "title": "Party",
+    "status": "CheckAgain"
   },
   {
     "id": 3,
@@ -23,10 +23,5 @@
     "id": 5,
     "title": "Dinner",
     "status": "Pending"
-  },
-  {
-    "id": 6,
-    "title": "Party",
-    "status": "CheckAgain"
   }
 ]

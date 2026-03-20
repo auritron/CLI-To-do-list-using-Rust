@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "Laundry",
+    "status": "CheckAgain"
+  },
+  {
+    "id": 2,
+    "title": "Homework",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "title": "BET Midsem",
+    "status": "Pending"
+  },
+  {
+    "id": 4,
+    "title": "Lunch",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "title": "Dinner",
+    "status": "Pending"
+  },
+  {
+    "id": 6,
+    "title": "Party",
+    "status": "CheckAgain"
+  }
+]

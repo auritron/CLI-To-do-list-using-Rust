@@ -1,0 +1,242 @@
+   0.038177100s  INFO prepare_target{force=false package_id=CLI_ToDoList v0.1.0 (C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList) target="CLI_ToDoList"}: cargo::core::compiler::fingerprint: fingerprint error for CLI_ToDoList v0.1.0 (C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList)/Check { test: false }/TargetInner { name: "CLI_ToDoList", doc: true, ..: with_path("C:\\Users\\Auritro Nath\\Desktop\\rustacean\\CLI_ToDoList\\CLI_ToDoList\\src\\main.rs", Edition2024) }
+   0.038238200s  INFO prepare_target{force=false package_id=CLI_ToDoList v0.1.0 (C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList) target="CLI_ToDoList"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\CLI_ToDoList-f9bc5d447a7f0145\bin-CLI_ToDoList`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.056780000s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\Auritro Nath\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.056819100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\serde-a39df8cb908db816\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.058412500s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\Auritro Nath\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   0.058439400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\serde_core-a82e9052872013e6\lib-serde_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.062666200s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\Auritro Nath\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\src\\lib.rs", Edition2021) }
+   0.062696700s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\serde_json-27d982b088732d4f\lib-serde_json`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.063383300s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.15/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\Auritro Nath\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.15\\src\\lib.rs", Edition2018) }
+   0.063408500s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\itoa-1159201b77711e52\lib-itoa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.063906200s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.7.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\Auritro Nath\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.7.6\\src\\lib.rs", Edition2021) }
+   0.063924500s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\memchr-eba0e9b8eaa9da5d\lib-memchr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.064733700s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.20/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\Auritro Nath\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.20\\src\\lib.rs", Edition2018) }
+   0.064757300s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\ryu-5e1247cab32248b8\lib-ryu`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.066441700s  INFO prepare_target{force=false package_id=CLI_ToDoList v0.1.0 (C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList) target="CLI_ToDoList"}: cargo::core::compiler::fingerprint: fingerprint error for CLI_ToDoList v0.1.0 (C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList)/Check { test: true }/TargetInner { name: "CLI_ToDoList", doc: true, ..: with_path("C:\\Users\\Auritro Nath\\Desktop\\rustacean\\CLI_ToDoList\\CLI_ToDoList\\src\\main.rs", Edition2024) }
+   0.066469500s  INFO prepare_target{force=false package_id=CLI_ToDoList v0.1.0 (C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList) target="CLI_ToDoList"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList\target\debug\.fingerprint\CLI_ToDoList-0fc623051d62741c\test-bin-CLI_ToDoList`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking memchr v2.7.6
+    Checking ryu v1.0.20
+    Checking itoa v1.0.15
+    Checking serde_core v1.0.228
+    Checking serde v1.0.228
+    Checking serde_json v1.0.145
+    Checking CLI_ToDoList v0.1.0 (C:\Users\Auritro Nath\Desktop\rustacean\CLI_ToDoList\CLI_ToDoList)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.74s
